@@ -97,6 +97,8 @@ z-index: 0;
 }
 .section-one__subtitle{
   position: absolute;
+  height: 127px;
+  width: 467px;
   font: 15px/21px 'montserrat', Arial, Helvetica, Sans-serif;
   padding: 361px 20% 0px 789px;
   margin: 0px;
@@ -125,37 +127,36 @@ z-index: 0;
   position: absolute;
   padding: 537px 184px 0px 1234px;
 }
-.section-one__social{
-  display: flex;
+.section-one__footer{
   position: absolute;
+  display: flex;
+  padding-top: 724px;
+  margin-left: 52px;
 }
-.link__inst {
-  position: relative;
-  margin: 724px 0px 0px 52px;
+.section-one__footer-social_inst {
   width: 43px;
   height: 43px;
-  background-image: url(img/INST.svg);
+  padding-right: 8px;
   z-index: 1;
+  background: no-repeat url(img/INST.svg);
 }
-.link__vk {
-  position: relative;
-  margin: 724px 0px 0px 12px;
+.section-one__footer-social_vk{
   width: 43px;
   height: 43px;
-  background-image: url(img/VK.svg);
+  padding-right: 8px;
   z-index: 1;
+  background: no-repeat url(img/VK.svg);
 }
-.link__fb {
-  position: relative;
-  margin: 724px 0px 0px 12px;
+.section-one__footer-social_fb{
   width: 43px;
   height: 43px;
-  background-image: url(img/FB.svg);
   z-index: 1;
+  background: no-repeat url(img/FB.svg);
 }
-.section-one__ellipse{
-	position: absolute;
-	margin: 724px 0px 0px 707px;
+.f__ellipse{
+	height: 46px;
+  width: 27px;
+  padding-left: 502px;
 }
 
 .section-two{
@@ -194,15 +195,15 @@ z-index: 0;
 .section-two__product_text{
   font: 15px/21px 'montserrat', Arial, Helvetica, Sans-serif;
   margin: 0px;
-  padding: 0px 0px 0px 55px;
+  padding: 0px 65px 0px 55px;
   opacity: .5;
 }
-.section-two__product_circle {
+.section-two__product-circle {
   display: flex;
   align-items: center;
   margin-top: 52px;
 }
-.section-two__product_circle {
+.section-two__product-circle {
   width: 30px;
   height: 30px;
   border-radius: 50%;
