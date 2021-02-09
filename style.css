@@ -99,7 +99,7 @@ body {
   height: 127px;
   width: 467px;
   font: 15px/21px 'montserrat', Arial, Helvetica, Sans-serif;
-  padding: 361px 20% 0px 789px;
+  padding: 361px 0px 0px 789px;
   margin: 0px;
 }
 .section-one__button{
@@ -124,8 +124,7 @@ body {
   padding: 537px 184px 0px 1043px;
 }
 .section-one__vektor{
-  position: absolute;
-  padding: 537px 184px 0px 1234px;
+  padding: 537px 184px 0px 0px;
 }
 .section-one__footer{
   position: absolute;
@@ -161,7 +160,7 @@ body {
 
 .section-two{
   height: 900px;
-  margin-top: 473px;
+  margin-top: 260px;
   background: #FAE8E4;
 }
 .section-two__bag-one{
@@ -266,9 +265,10 @@ body {
 .section-three__look{
   position: absolute;
   z-index: 1;
-  width: 827px;
-  height: 900px;
+  width: 860px;
+  height: 646px;
   margin-left: 34px;
+  margin-top: 139px;
 }
 .section-three__look-text{
   position: absolute;
