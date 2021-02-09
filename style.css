@@ -1,7 +1,7 @@
 body {
   margin: 0 auto;
   max-width: 1440px;
-  font-family: 'montserrat', arial, helvetica, sans-serif;
+  font-family: montserrat, arial, helvetica, sans-serif;
 }
 
 .header {
@@ -21,13 +21,15 @@ body {
   letter-spacing: 0.07em;
   color: #FFFFFF;
   align-items: center;
+  padding-top: 10px;
   padding-left: 52px;
   z-index: 1;
 }
 .header__language {
   display: flex;
+  padding-top:10px;
   align-items: center;
-  margin-left: 238px;
+  margin-left: 241px;
   font-size: 20px;
   line-height: 24px;
   color: #FFFFFF;
@@ -64,18 +66,20 @@ body {
   cursor: pointer;
   opacity: initial;
   background: #E5E5E5;
+
 }
 .burger-menu__btn > span,
 .burger-menu__btn > span::after {
   display: block;
   position: absolute;
+  margin-top: -13px;
   width: 35px;
   height: 2px;
   background-color: black;
 }
 .burger-menu__btn > span::after {
   content: '';
-  top: 8px;
+  top: 21px;
 }
 
 .section-one{
@@ -87,31 +91,31 @@ body {
   height: 562px;
   background: no-repeat url('img/girl.png');
   z-index: 1;
-  margin: 77px 0px 0px 186px;
+  margin: 73px 0px 0px 186px;
 }
 .section-one__title{
-  font: bold 80px/82px 'montserrat', Arial, Helvetica, Sans-serif;
-  padding: 171px 0px 0px 789px;
+  font: bold 80px/82px montserrat, Arial, Helvetica, Sans-serif;
+  padding: 175px 0px 0px 794px;
   margin: 0px;
 }
 .section-one__subtitle{
   position: absolute;
   height: 127px;
-  width: 467px;
+  width: 415px;
   font: 15px/21px 'montserrat', Arial, Helvetica, Sans-serif;
-  padding: 361px 0px 0px 789px;
+  padding: 356px 0px 0px 789px;
   margin: 0px;
 }
 .section-one__button{
   position:absolute;
   display:flex;
   width: 203px;
-  height: 44px;
+  height: 37px;
   justify-content: center;
   align-items: center;
-  font-size: 13px;
+  font-size: 14px;
   font-family: 'montserrat', Arial, Helvetica, Sans-serif;
-  margin: 524px 0px 0px 789px;
+  margin: 523px 0px 0px 789px;
   padding: 0px;
   border-radius: 1.5px;
   background-color: white;
@@ -121,28 +125,28 @@ body {
   font-size: 13px;
   text-decoration: none;
   color: black;
-  padding: 537px 184px 0px 1043px;
+  padding: 532px 184px 0px 73%;
 }
 .section-one__vektor{
-  padding: 537px 184px 0px 0px;
+  padding: 532px 11% 0px 0px;
 }
 .section-one__footer{
   position: absolute;
   display: flex;
-  padding-top: 724px;
+  padding-top: 719px;
   margin-left: 52px;
 }
 .section-one__footer-social-inst {
   width: 43px;
   height: 43px;
-  padding-right: 8px;
+  padding-right: 14px;
   z-index: 1;
   background: no-repeat url(img/INST.svg);
 }
 .section-one__footer-social-vk{
   width: 43px;
   height: 43px;
-  padding-right: 8px;
+  padding-right: 11px;
   z-index: 1;
   background: no-repeat url(img/VK.svg);
 }
@@ -153,8 +157,8 @@ body {
   background: no-repeat url(img/FB.svg);
 }
 .f__ellipse{
-	height: 46px;
-  width: 27px;
+	height: 50px;
+  width: 33px;
   padding-left: 502px;
 }
 
@@ -176,22 +180,22 @@ body {
   width: 488px;
   height: 556px;
   background-color: #FFFFFF;
-  margin: 168px 0px 0px 879px;
+  margin: 178px 0px 0px 879px;
 }
 .section-two__product_title{
-  font: bold 40px/41px 'montserrat', Arial, Helvetica, Sans-serif;
+  font: bold 45px/47px 'montserrat', Arial, Helvetica, Sans-serif;
   margin:0px;
-  padding: 40px 0px 17px 55px;
+  padding: 33px 0px 8px 57px;
 }
 .section-two__product_subtitle{
   font:bold 16px/16px 'montserrat', Arial, Helvetica, Sans-serif;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.13em;
   margin:0px;
   padding: 0px 0px 64px 55px;
   opacity: .5;
 }
 .section-two__product_text{
-  font: 15px/21px 'montserrat', Arial, Helvetica, Sans-serif;
+  font: 16px/21px 'montserrat', Arial, Helvetica, Sans-serif;
   margin: 0px;
   padding: 0px 65px 0px 55px;
   opacity: .5;
@@ -200,7 +204,7 @@ body {
   position: absolute;
   display: flex;
   align-items: center;
-  margin-top: 52px;
+  margin-top: 40px;
 }
 .section-two__circle-color{
   width: 30px;
@@ -209,7 +213,7 @@ body {
 }
 .section-two__product_circle_grey {
   background: #DEDEDE;
-  margin-left: 55px;
+  margin-left: 61px;
 }
 .section-two__product_circle_pink {
   background: #F29F9F;
@@ -225,28 +229,27 @@ body {
 }
 .section-two__product-price{
   align-items: center;
-  font: bold 40px/56px 'montserrat', Arial, Helvetica, Sans-serif;
-  margin: 0px 0px 0px 135px;
+  font: bold 42px/56px 'montserrat', Arial, Helvetica, Sans-serif;
+  margin-left:22%;
 }
 .section-two__product-button{
-  position: absolute;
-  width: 259px;
-  height: 48px;
+  width: 255px;
+  height: 45px;
   margin: 141px 0px 0px 170px;
   font:13px 'Montserrat', Arial, Helvetica, Sans-serif;
   background-color: white;
 }
 .section-two__link{
   position: absolute;
-  font: 13px/16px 'montserrat', arial, helvetica, sans-serif;
+  font: 14px/23px 'montserrat', arial, helvetica, sans-serif;
   text-decoration: none;
   color: black;
   cursor: pointer;
-  margin: 763px 0px 0px 884px;
+  margin: 53% 0px 0px 61%;
 }
 .section-two__vektor{
   position: absolute;
-  margin: 763px 0px 0px 1120px;
+  margin: 763px 0px 0px 78%;
 }
 
 .section-three{
@@ -265,33 +268,33 @@ body {
 .section-three__look{
   position: absolute;
   z-index: 1;
-  width: 860px;
-  height: 646px;
-  margin-left: 34px;
-  margin-top: 139px;
+  width: 830px;
+  height: 615px;
+  margin-left: 85px;
+  margin-top: 133px;
 }
 .section-three__look-text{
   position: absolute;
-  margin: 255px 0px 0px 783px;
+  margin: 262px 0px 0px 818px;
   width: 475px;
-  height: 351px;
+  height: 347px;
   background-color: #FAE8E4;
   z-index: 1;
 }
 .look-text__title{
-  font: bold 40px/41px 'montserrat', arial, helvetica, sans-serif;
-  margin: 34px 0px 0px 47px;
+  font: bold 42px/41px 'montserrat', arial, helvetica, sans-serif;
+  margin: 31px 0px 0px 45px;
 }
 .look-text__subtitle{
   font: 16px 'montserrat', arial, helvetica, sans-serif;
   opacity: 0.5;
-  letter-spacing: 0.07em;
-  margin: 17px 0px 0px 47px;
+  letter-spacing: 0.14em;
+  margin: 14px 0px 0px 46px;
 }
 .look-text__text{
-  font: 15px/21px 'montserrat', arial, helvetica, sans-serif;
+  font: 18px/21px 'montserrat', arial, helvetica, sans-serif;
   opacity: 0.5;
-  margin: 35px 57px 70px 47px;
+  margin: 35px 57px 54px 47px;
 }
 .look-text__button{
   font: 13px 'montserrat', arial, helvetica, sans-serif;
@@ -302,26 +305,26 @@ body {
 }
 .section-three__link{
   position: absolute;
-  font: 13px/16px 'montserrat', arial, helvetica, sans-serif;
+  font: 14px/16px 'montserrat', arial, helvetica, sans-serif;
   text-decoration: none;
   color: black;
   cursor: pointer;
-  margin: 643px 0px 0px 920px;
+  margin: 642px 0px 0px 66%;
 }
 .section-three__vektor{
   position: absolute;
-  margin: 643px 0px 0px 1148px;
+  margin: 642px 0px 0px 82%;
 }
 .section-three__footer{
 	display: flex;
 	justify-content:flex-end;
 	align-items: center;
 	position:relative;
-  padding: 842px 16px 0px 0px;
+  padding: 849px 16px 0px 0px;
 }
 .footer__text {
-	margin-right: 5px;
-	font: bold 12px/15px 'montserrat', arial, helvetica, sans-serif;
+	margin-right: 13px;
+	font: bold 13px/15px 'montserrat', arial, helvetica, sans-serif;
 }
 .footer__img {
 	width: 88px;
