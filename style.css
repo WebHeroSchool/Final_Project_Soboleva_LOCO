@@ -17,6 +17,20 @@ body {
 }
 .header__logo {
   display: flex;
+  font-family: 'montserrat', arial, helvetica, sans-serif;
+}
+
+.header {
+border: dashed 1px red;
+display: flex;
+justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  width: 408px;
+  height:92px;
+  background: black;
   font-size: 30px;
   letter-spacing: 0.07em;
   color: #FFFFFF;
@@ -35,6 +49,16 @@ body {
   color: #FFFFFF;
   transition: opacity .5s ease-out;
   z-index: 1;
+  padding-left: 52px;
+}
+
+.header__language {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  transition: opacity .5s ease-out;
 }
 .header__language:hover {
 	opacity: 0.4;
@@ -44,6 +68,7 @@ body {
 	content: "";
 	margin: 2px 7px;
 	border: solid white;
+	border: solid black;
 	border-width: 0 2px 2px 0;
 	display: inline-block;
 	padding: 3px;
@@ -58,6 +83,12 @@ body {
   display: none;
 }
 .burger-menu__btn {
+}
+
+#menu__toggle {
+  display: none;
+}
+.menu__btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,6 +104,15 @@ body {
   display: block;
   position: absolute;
   margin-top: -13px;
+  margin-left: auto;
+  cursor: pointer;
+  opacity: initial;
+  background: #E5E5E5;
+}
+.menu__btn > span,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
   width: 35px;
   height: 2px;
   background-color: black;
@@ -414,5 +454,56 @@ body {
   }
 }
 @media (max-width: 1160px){
-  
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+.section-one{
+  width: 460px;
+  height: 718px;
+  background: black;
+  border: dashed 1px red;
+}
+.section-one__img{
+  width: 549px;
+  height: 562px;
+  background: no-repeat url('img/girl.png');
+}
+.section-one__title{
+  font: bold 80px/82px 'montserrat', Arial, Helvetica, Sans-serif;
+  padding: 171px 176px 26px 789px;
+  margin: 0px;
+}
+.section-one__subtitle{
+  width: 467px;
+  font: 15px/21px 'montserrat', Arial, Helvetica, Sans-serif;
+  padding: 0px 184px 0px 789px;
+  margin: 0px;
+}
+.section-one__button{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 203px;
+  height: 44px;
+  font-size: 13px;
+  font-family: 'montserrat', Arial, Helvetica, Sans-serif;
+  margin: 36px 0px 0px 789px;
+  padding: 0px;
+  border-radius: 1.5px;
+}
+.section-one__link{
+  display: flex;
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+  padding: 0px 184px 0px 789px;
+}
+.section-one__link::after{
+  content: "";
+  display: block;
+  position: absolute;
+  background: url(img/vector.svg) no-repeat;
+  width: 43px;
 }
