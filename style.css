@@ -68,19 +68,19 @@ body {
  content: "";
  position: absolute;
  background: black;
- width: 34.7px;
+ width: 25.7px;
  height: 3.48px;
- top: 39.5px;
- right: 25px;
+ top: 29.5px;
+ right: 22px;
 }
 .burger-menu__btn::after {
  content: "";
  background: black;
  position: absolute;
- width: 34.7px;
+ width: 25.7px;
  height: 3.48px;
- top: 49px;
- right: 25px;
+ top: 38px;
+ right: 22px;
 }
 
 .section-one{
@@ -172,9 +172,13 @@ body {
   position: absolute;
   padding: 217px 0px 0px 137px;
 }
-.section-two__bag-two{
+.section-two__bag-img-two{
   position: absolute;
-  padding: 28px 0px 0px 231px;
+  background: no-repeat url('img/pinkbag.png');
+  padding: 0px;
+  margin: 24px 0px 0px 235px;   
+  height: 844px;
+  width: 582px;
 }
 .section-two__product{
   position: absolute;
@@ -271,6 +275,7 @@ body {
   z-index: 1;
   width: 830px;
   height: 615px;
+  background: no-repeat url('img/look.png');
   margin-left: 85px;
   margin-top: 133px;
 }
@@ -314,7 +319,10 @@ body {
 }
 .section-three__vektor{
   position: absolute;
+  background: no-repeat url('img/vector3.svg');
   margin: 642px 0px 0px 1183px;
+  width: 108px;
+  height: 14px;
 }
 .section-three__footer{
 	display: flex;
@@ -537,4 +545,227 @@ body {
   }
 }
 
-@media (max-width: 790px){}
+@media (max-width: 375px){
+  .header::before{
+    display: none;
+  }
+  .header__logo {
+    display: flex;
+    width: 317px;
+    height:40px;
+    font-size: 30px;
+    letter-spacing: 0.07em;
+    color: black;
+    background-color: white;
+    align-items: center;
+    padding-top: 14px;
+    padding-left: 26px;
+  }
+  .header__language {
+    display: none;
+  }
+  .burger-menu{
+    margin-left: auto;
+  }
+  #burger-menu__toggle {
+    display: none;
+  }
+  .burger-menu__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 69px;
+    height: 69px;
+    cursor: pointer;
+    opacity: initial;
+    background: #E5E5E5;
+  }
+  .burger-menu__btn::before {
+   content: "";
+   position: absolute;
+   background: black;
+   width: 18.7px;
+   height: 3.48px;
+   top: 29.5px;
+   right: 25px;
+  }
+  .burger-menu__btn::after {
+   content: "";
+   background: black;
+   position: absolute;
+   width: 18.7px;
+   height: 3.48px;
+   top: 39px;
+   right: 25px;
+  }
+
+  .section-one{
+    display: flex;
+  }
+  .section-one__img{
+    position: absolute;
+    width: 374px;
+    height: 528px;
+    background: no-repeat url('img/girl_mobile.png');
+    background-size: 100%;
+    background-position: top 98% left 0%;
+    margin: 0;
+    padding: 0;
+  }
+  .section-one__title{
+    font: bold 50px/51px montserrat, Arial, Helvetica, Sans-serif;
+    padding: 370px 0px 0px 30px;
+    margin: 0px;
+    z-index: 2;
+  }
+  .section-one__title::after {
+    content: "";
+    position: relative;
+    margin: 6px 0 0 149px;
+    border: solid #020202;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 22px;
+    height: 22px;
+  }
+  .section-one__subtitle{
+    display: none;
+  }
+  .section-one__button{
+    display: none;
+  }
+  .section-one__link{
+    display: none;
+  }
+  .section-one__vektor{
+    display: none;
+  }
+  .section-one__footer{
+    display: none;
+  }
+
+  .section-two{
+    height: 596px;
+    margin-top: 24px;
+  }
+  .section-two__bag-one{
+    display: none;
+  }
+  .section-two__bag-img-two{
+    position: absolute;
+    height: 289px;
+    width: 224px;
+    background-position: top 145% left 99%;
+    background-size: 75%;
+    padding: 0px 0px 0px 76px;
+  }
+  .section-two__product{
+    position: absolute;
+    width: 322px;
+    height: 282px;
+    margin: 262px 0px 0px 24px;
+  }
+  .section-two__product_title{
+    font: bold 22px/20px 'montserrat', Arial, Helvetica, Sans-serif;
+    padding: 19px 0px 3px 31px;
+  }
+  .section-two__product_subtitle{
+    font:bold 10px/10px 'montserrat', Arial, Helvetica, Sans-serif;
+    padding: 0px 0px 15px 32px;
+  }
+  .section-two__product_text{
+    font: 10px/12px 'montserrat', Arial, Helvetica, Sans-serif;
+    padding: 0px 67px 0px 32px;
+  }
+  .section-two__circle{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 9px;
+  }
+  .section-two__circle-color{
+    width: 23px;
+    height: 23px;
+  }
+  .section-two__product_circle_grey {
+    margin-left: 35px;
+  }
+  .section-two__product-price{
+    align-items: center;
+    font: bold 20px/28px 'montserrat', Arial, Helvetica, Sans-serif;
+    margin-left:27%;
+  }
+  .section-two__product-button{
+    width: 260px;
+    height: 37px;
+    margin: 68px 0px 0px 32px;
+    font:14px 'Montserrat', Arial, Helvetica, Sans-serif;
+  }
+  .section-two__link{
+    display: none;
+  }
+  .section-two__vektor{
+    display: none;
+  }
+
+
+  .section-three{
+  height: 597px;
+}
+  .section-three::before{
+  content: '';
+  display: flex;
+  position: absolute;
+  width: 42px;
+  height: 597px;
+  background: black;
+  right: 62%;
+}
+  .section-three__look{
+  position: absolute;
+  z-index: 1;
+  width: 345px;
+  background-size: 100%;
+  margin-left: 14px;
+  margin-top: 34px;
+}
+  .section-three__look-text{
+  position: absolute;
+  margin: 274px 0px 0px 44px;
+  width: 305px;
+  height: 195px;
+  z-index: 1;
+}
+  .look-text__title{
+  font: bold 21px/20px 'montserrat', arial, helvetica, sans-serif;
+  margin: 25px 0px 0px 23px;
+}
+  .look-text__subtitle{
+  font: 10px 'montserrat', arial, helvetica, sans-serif;
+  margin: 5px 0px 0px 23px;
+}
+  .look-text__text{
+  font: 10px/12px 'montserrat', arial, helvetica, sans-serif;
+  margin: 10px 55px 22px 24px;
+  }
+  .look-text__button{
+  font: 14px 'montserrat', arial, helvetica, sans-serif;
+  height: 37px;
+  width: 260px;
+  margin: 0px 0px 0px 23px;
+  }
+  .section-three__link{
+  font: 16px/17px 'montserrat', arial, helvetica, sans-serif;
+  margin: 510px 40px 0px 188px;
+  }
+  .section-three__vektor{
+  margin: 548px 0px 0px 189px;
+  background-size: 100%;
+  width: 138px;
+  }
+  .section-three__footer{
+	  display: none;
+  }
+}
