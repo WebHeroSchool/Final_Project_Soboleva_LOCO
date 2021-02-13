@@ -2,7 +2,6 @@ body {
   margin: 0 auto;
   max-width: 1440px;
   font-family: montserrat, arial, helvetica, sans-serif;
-}
 
 .header {
   display: flex;
@@ -48,6 +47,7 @@ body {
 	-webkit-transform: rotate(45deg);
   z-index: 1;
 }
+
 .burger-menu{
   margin-left: auto;
 }
@@ -81,7 +81,7 @@ body {
  height: 3.48px;
  top: 40px;
  right: 28px;
-}
+ }
 
 .section-one{
   display: flex;
