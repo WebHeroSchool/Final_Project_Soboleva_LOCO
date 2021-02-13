@@ -68,19 +68,19 @@ body {
  content: "";
  position: absolute;
  background: black;
- width: 25.7px;
+ width: 34.7px;
  height: 3.48px;
- top: 29.5px;
- right: 22px;
+ top: 48.5px;
+ right: 28px;
 }
 .burger-menu__btn::after {
  content: "";
  background: black;
  position: absolute;
- width: 25.7px;
+ width: 34.7px;
  height: 3.48px;
- top: 38px;
- right: 22px;
+ top: 40px;
+ right: 28px;
 }
 
 .section-one{
@@ -89,22 +89,22 @@ body {
 .section-one__img{
   position: absolute;
   width: 549px;
-  height: 557px;
+  height: 562px;
   background: no-repeat url('img/girl.png');
   z-index: 1;
-  margin: 73px 0px 0px 186px;
+  margin: 66px 0px 0px 186px;
 }
 .section-one__title{
-  font: bold 80px/82px montserrat, Arial, Helvetica, Sans-serif;
-  padding: 174px 0px 0px 794px;
+  font: bold 83px/82px montserrat, Arial, Helvetica, Sans-serif;
+  padding: 168px 0px 0px 788px;
   margin: 0px;
 }
 .section-one__subtitle{
   position: absolute;
   height: 127px;
-  width: 415px;
-  font: 15px/21px 'montserrat', Arial, Helvetica, Sans-serif;
-  padding: 352px 0px 0px 789px;
+  width: 470px;
+  font: 17px/21px 'montserrat', Arial, Helvetica, Sans-serif;
+  padding: 352px 0px 0px 788px;
   margin: 0px;
 }
 .section-one__button{
@@ -123,7 +123,7 @@ body {
 }
 .section-one__link{
   position: absolute;
-  font-size: 13px;
+  font-size: 14px;
   text-decoration: none;
   color: black;
   padding: 527px 0px 0px 1044px;
@@ -165,7 +165,7 @@ body {
 
 .section-two{
   height: 900px;
-  margin-top: 260px;
+  margin-top: 257px;
   background: #FAE8E4;
 }
 .section-two__bag-one{
@@ -176,7 +176,7 @@ body {
   position: absolute;
   background: no-repeat url('img/pinkbag.png');
   padding: 0px;
-  margin: 24px 0px 0px 235px;   
+  margin: 24px 0px 0px 235px;
   height: 844px;
   width: 582px;
 }
@@ -185,24 +185,24 @@ body {
   width: 492px;
   height: 557px;
   background-color: #FFFFFF;
-  margin: 166px 0px 0px 877px;
+  margin: 163px 0px 0px 877px;
 }
 .section-two__product_title{
-  font: bold 45px/47px 'montserrat', Arial, Helvetica, Sans-serif;
+  font: bold 42px/50px 'montserrat', Arial, Helvetica, Sans-serif;
   margin:0px;
-  padding: 43px 0px 8px 58px;
+  padding: 42px 0px 13px 56px;
 }
 .section-two__product_subtitle{
-  font:bold 16px/16px 'montserrat', Arial, Helvetica, Sans-serif;
+  font:bold 15px/16px 'montserrat', Arial, Helvetica, Sans-serif;
   letter-spacing: 0.13em;
   margin:0px;
-  padding: 0px 0px 64px 55px;
+  padding: 0px 0px 61px 55px;
   opacity: .5;
 }
 .section-two__product_text{
   font: 16px/21px 'montserrat', Arial, Helvetica, Sans-serif;
   margin: 0px;
-  padding: 0px 65px 0px 55px;
+  padding: 0px 78px 0px 58px;
   opacity: .5;
 }
 .section-two__circle{
@@ -218,30 +218,30 @@ body {
 }
 .section-two__product_circle_grey {
   background: #DEDEDE;
-  margin-left: 61px;
+  margin-left: 56px;
 }
 .section-two__product_circle_pink {
   background: #F29F9F;
-  margin-left: 12px;
+  margin-left: 16px;
 }
 .section-two__product_circle_blue {
   background: #A8BFF9;
-  margin-left: 12px;
+  margin-left: 16px;
 }
 .section-two__product_circle_green {
   background: #90BD8F;
-  margin-left: 12px;
+  margin-left: 16px;
 }
 .section-two__product-price{
   align-items: center;
-  font: bold 42px/56px 'montserrat', Arial, Helvetica, Sans-serif;
-  margin-left:22%;
+  font: bold 41px/56px 'montserrat', Arial, Helvetica, Sans-serif;
+  margin-left:19%;
 }
 .section-two__product-button{
   width: 255px;
   height: 45px;
   margin: 141px 0px 0px 170px;
-  font:13px 'Montserrat', Arial, Helvetica, Sans-serif;
+  font:14px 'Montserrat', Arial, Helvetica, Sans-serif;
   background-color: white;
 }
 .section-two__link{
@@ -274,7 +274,7 @@ body {
   position: absolute;
   z-index: 1;
   width: 830px;
-  height: 615px;
+  height: 645px;
   background: no-repeat url('img/look.png');
   margin-left: 85px;
   margin-top: 133px;
@@ -303,10 +303,10 @@ body {
   margin: 29px 57px 52px 47px;
 }
 .look-text__button{
-  font: 13px 'montserrat', arial, helvetica, sans-serif;
+  font: 14px 'montserrat', arial, helvetica, sans-serif;
   height: 46px;
   width: 253px;
-  margin: 0px 0px 0px 162px;
+  margin: 5px 0px 0px 158px;
   background-color: white;
 }
 .section-three__link{
@@ -613,15 +613,15 @@ body {
     padding: 0;
   }
   .section-one__title{
-    font: bold 50px/51px montserrat, Arial, Helvetica, Sans-serif;
-    padding: 370px 0px 0px 30px;
+    font: bold 52px/51px montserrat, Arial, Helvetica, Sans-serif;
+    padding: 365px 0px 0px 26px;
     margin: 0px;
     z-index: 2;
   }
   .section-one__title::after {
     content: "";
     position: relative;
-    margin: 6px 0 0 149px;
+    margin: 11px 0 0 149px;
     border: solid #020202;
     border-width: 0 3px 3px 0;
     display: inline-block;
@@ -660,6 +660,7 @@ body {
     background-position: top 145% left 99%;
     background-size: 75%;
     padding: 0px 0px 0px 76px;
+    margin: 0px;
   }
   .section-two__product{
     position: absolute;
@@ -668,29 +669,39 @@ body {
     margin: 262px 0px 0px 24px;
   }
   .section-two__product_title{
-    font: bold 22px/20px 'montserrat', Arial, Helvetica, Sans-serif;
-    padding: 19px 0px 3px 31px;
+    font: bold 21px/20px 'montserrat', Arial, Helvetica, Sans-serif;
+    padding: 21px 0px 3px 31px;
   }
   .section-two__product_subtitle{
-    font:bold 10px/10px 'montserrat', Arial, Helvetica, Sans-serif;
-    padding: 0px 0px 15px 32px;
+    font:bold 9px/10px 'montserrat', Arial, Helvetica, Sans-serif;
+    padding: 0px 0px 15px 34px;
+    letter-spacing: 0.17em;
   }
   .section-two__product_text{
-    font: 10px/12px 'montserrat', Arial, Helvetica, Sans-serif;
-    padding: 0px 67px 0px 32px;
+    font: 10px/13px 'montserrat', Arial, Helvetica, Sans-serif;
+    padding: 0px 41px 0px 37px;
   }
   .section-two__circle{
     position: absolute;
     display: flex;
     align-items: center;
-    margin-top: 9px;
+    margin-top: 15px;
   }
   .section-two__circle-color{
     width: 23px;
     height: 23px;
   }
   .section-two__product_circle_grey {
-    margin-left: 35px;
+    margin-left: 38px;
+  }
+  .section-two__product_circle_pink {
+    margin-left: 12px;
+  }
+  .section-two__product_circle_blue {
+    margin-left: 12px;
+  }
+  .section-two__product_circle_green {
+    margin-left: 12px;
   }
   .section-two__product-price{
     align-items: center;
@@ -700,7 +711,7 @@ body {
   .section-two__product-button{
     width: 260px;
     height: 37px;
-    margin: 68px 0px 0px 32px;
+    margin: 74px 0px 0px 35px;
     font:14px 'Montserrat', Arial, Helvetica, Sans-serif;
   }
   .section-two__link{
@@ -745,10 +756,10 @@ body {
   .look-text__subtitle{
   font: 10px 'montserrat', arial, helvetica, sans-serif;
   margin: 5px 0px 0px 23px;
-}
+  }
   .look-text__text{
   font: 10px/12px 'montserrat', arial, helvetica, sans-serif;
-  margin: 10px 55px 22px 24px;
+  margin: 10px 55px 24px 24px;
   }
   .look-text__button{
   font: 14px 'montserrat', arial, helvetica, sans-serif;
