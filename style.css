@@ -1,8 +1,8 @@
-.body {
+body {
   margin: 0 auto;
   max-width: 1440px;
-  font-family: montserrat, arial, helvetica, sans-serif;
-}  
+  font-family: 'montserrat', arial, helvetica, sans-serif;
+}
 
 .header {
   display: flex;
@@ -130,7 +130,7 @@
   padding: 527px 0px 0px 1044px;
 }
 .section-one__vektor{
-  padding: 530px 11% 0px 0px;
+  margin:  530px 11% 0px 0px;
 }
 .section-one__footer{
   position: absolute;
@@ -343,7 +343,7 @@
 
 @media (max-width: 1380px){
   .section-one__vektor{
-    padding: 530px 0px 0px 0px;
+    padding: 0px;
   }
   .section-two__product{
     margin: 163px 0px 0px 830px;
@@ -352,17 +352,18 @@
 
 @media (max-width: 1366px){
   .section-one__link{
-    padding: 539px 0px 0px 1000px;
+    padding: 529px 0px 0px 1000px;
   }
   .section-one__vektor{
     position: absolute;
-    margin: 540px 0px 0px 1175px;
+    margin: 532px 0px 0px 1175px;
     padding: 0px;
   }
-  .section-two__bag-two{
-    width: 450px;
+  .section-two__bag-img-two{
+    width: 396px;
     height: 624px;
-    padding: 166px 0px 0px 240px;
+    background-size: 80%;
+    padding: 0px 0px 0px 251px;
   }
   .section-two{
     margin-top: 458px;
@@ -381,6 +382,7 @@
   .section-three__look{
     width: 680px;
     height: 550px;
+    background-size: 103%;
   }
   .section-three__look-text{
     margin: 262px 0px 0px 740px;
@@ -395,7 +397,7 @@
 
 @media (max-width: 1260px){
   .section-one__img{
-    width: 500px;
+    width: 425px;
     height: 545px;
     margin: 73px 0px 0px 159px;
   }
@@ -414,6 +416,16 @@
   .section-one__link{
     padding: 539px 0px 0px 930px;
   }
+  .section-one__img{
+    padding: 243px 0px 0px 90px;
+  }
+  .section-two{
+    margin-top: 447px;
+  }
+  .section-two__bag-img-two{
+    background-size: 70%;
+    margin: 100px 0px 0px 240px;
+  }
   .section-two__product{
     margin: 178px 0px 0px 690px;
   }
@@ -425,27 +437,25 @@
     width: 185px;
   }
   .section-three__look{
+    background-size: 103%;
     width: 655px;
     height: 532px;
   }
   .section-three__look-text{
     width: 435px;
-    margin: 262px 0px 0px 720px;
+    margin: 252px 0px 0px 720px;
   }
 }
 
 @media (max-width: 1160px){
-  .section-two{
-    margin-top: 625px;
-  }
-}
-
-@media (max-width: 1000px){
   .header::before{
     width: 350px;
   }
   .header__logo {
     width: 235px;
+  }
+  .section-two{
+    margin-top: 450px;
   }
   .section-one__img{
     background-size: 75%;
@@ -466,7 +476,7 @@
     padding: 438px 0px 0px 740px;
   }
   .section-one__vektor{
-    margin: 438px 0px 0px 910px;
+    margin: 438px 0px 0px 925px;
     padding: 0px;
   }
   .f__ellipse{
@@ -474,17 +484,19 @@
   }
 
   .section-two{
-    margin-top: 567px;
+    margin-top: 625px;
   }
   .section-two__bag-one{
     height: 340px;
     width: 300px;
-    padding: 185px 0px 0px 65px;
+    padding: 250px 0px 0px 65px;
   }
-  .section-two__bag-two{
+  .section-two__bag-img-two{
     height: 530px;
     width: 330px;
-    padding: 120px 0px 0px 150px;
+    background-size: 104%;
+    margin: 185px 0px 0px 140px;
+    padding: 0px;
   }
   .section-two__product{
     width: 415px;
@@ -530,7 +542,7 @@
   .section-three__look-text{
     margin: 262px 0px 0px 565px;
     width: 415px;
-    height: 320px;
+    height: 280px;
   }
   .look-text__title{
     font: bold 35px/37px 'montserrat', arial, helvetica, sans-serif;
@@ -549,10 +561,302 @@
   }
   .section-three__link{
     font: 13px/16px 'montserrat', arial, helvetica, sans-serif;
-    margin: 600px 0px 0px 610px;
+    margin: 575px 0px 0px 610px;
   }
   .section-three__vektor{
-    margin: 600px 0px 0px 845px;
+    margin: 575px 0px 0px 845px;
+  }
+}
+
+@media (max-width: 1040px){
+  .section-one__subtitle{
+    width: 410px;
+    font: 15px/21px 'montserrat', Arial, Helvetica, Sans-serif;
+  }
+  .section-one__link{
+    padding: 436px 0px 0px 725px;
+  }
+  .section-one__vektor{
+    margin: 438px 0px 0px 909px;
+  }
+  .section-two{
+    margin-top:568px;
+  }
+  .section-two__product{
+    margin: 185px 0px 0px 500px;
+  }
+  .section-two__link{
+    margin: 680px 0px 0px 500px;
+  }
+  .section-two__vektor{
+    margin: 685px 0px 0px 725px;
+  }
+  .section-three__look-text{
+    width: 370px;
+  }
+  .look-text__button{
+    margin: 0px 0px 0px 95px;
+  }
+  .section-three__vektor{
+    margin: 571px 0px 0px 825px;
+  }
+}
+
+@media (max-width: 955px){
+  .section-one__img{
+    background-size: 70%;
+  }
+  .section-one__title{
+    font: bold 45px/47px montserrat, Arial, Helvetica, Sans-serif;
+    padding: 135px 0px 0px 490px;
+    margin-right: 6%;
+  }
+  .section-one__subtitle{
+    width: 385px;
+    padding: 245px 0px 0px 490px;
+  }
+  .section-one__button{
+    width: 135px;
+    font-size: 13px;
+    font-family: 'montserrat', Arial, Helvetica, Sans-serif;
+    margin: 408px 0px 0px 490px;
+  }
+  .section-one__link{
+    font-size: 13px;
+    padding: 423px 0px 0px 635px;
+  }
+  .section-one__vektor{
+    margin:  425px 0px 0px 800px;
+  }
+  .f__ellipse{
+    padding-left: 300px;
+  }
+
+  .section-two{
+    margin-top: 570px;
+  }
+  .section-two__bag-img-two{
+    margin: 150px 0px 0px 170px;
+    height: 530px;
+    width: 330px;
+  }
+  .section-two__product{
+    width: 352px;
+    height: 420px;
+    margin: 185px 0px 0px 512px;
+  }
+  .section-two__product_title{
+    font: bold 30px/32px 'montserrat', Arial, Helvetica, Sans-serif;
+    padding: 35px 0px 8px 24px;
+  }
+  .section-two__product_subtitle{
+    font:bold 12px/13px 'montserrat', Arial, Helvetica, Sans-serif;
+    padding: 0px 0px 20px 24px;
+  }
+  .section-two__product_text{
+    font: 13px/19px 'montserrat', Arial, Helvetica, Sans-serif;
+    padding: 0px 24px 0px;
+  }
+  .section-two__circle{
+    margin-top: 25px;
+  }
+  .section-two__circle-color{
+    width: 25px;
+    height: 25px;
+  }
+  .section-two__product_circle_grey {
+    margin-left: 30px;
+  }
+  .section-two__product-price{
+    font: bold 34px/36px 'montserrat', Arial, Helvetica, Sans-serif;
+    margin-left:19%;
+  }
+  .section-two__product-button{
+    margin: 120px 0px 0px 80px;
+  }
+  .section-two__link{
+    margin: 625px 0px 0px 515px;
+  }
+  .section-two__vektor{
+    margin: 633px 0px 0px 733px;
+    width: 110px;
+  }
+
+  .section-three{
+    height: 900px;
+  }
+  .section-three__look{
+    width: 650px;
+    height: 500px;
+    background-size: 80%;
+  }
+  .section-three__look-text{
+    margin: 200px 0px 0px 558px;
+    width: 315px;
+    height: 320px;
+  }
+  .look-text__title{
+    font: bold 27px/29px 'montserrat', arial, helvetica, sans-serif;
+  }
+  .look-text__subtitle{
+    font: 13px 'montserrat', arial, helvetica, sans-serif;
+    margin: 14px 0px 0px 46px;
+  }
+  .look-text__text{
+    font: 14px/18px 'montserrat', arial, helvetica, sans-serif;
+    margin: 29px 57px 52px 47px;
+  }
+  .look-text__button{
+    width: 230px;
+    margin: 5px 0px 0px 45px;
+  }
+  .section-three__link{
+    font: 12px/15px 'montserrat', arial, helvetica, sans-serif;
+    margin: 540px 0px 0px 590px;
+  }
+  .section-three__vektor{
+    margin: 544px 0px 0px 788px;
+    background-size: 70%;
+    width: 80px;
+    height: 14px;
+  }
+}
+
+@media (max-width: 880px) {
+  .header::before{
+    width: 310px;
+    height: 800px;
+  }
+  .header__logo {
+    width: 200px;
+  }
+  .section-one__img{
+    background-size: 60%;
+  }
+  .section-one__title{
+    font: bold 35px/37px montserrat, Arial, Helvetica, Sans-serif;
+    padding: 160px 0px 0px 430px;
+    margin-right: 15%;
+  }
+  .section-one__subtitle{
+    width: 334px;
+    padding: 250px 0px 0px 430px;
+    font: 12px/15px montserrat, Arial, Helvetica, Sans-serif;
+  }
+  .section-one__button{
+    width: 130px;
+    height: 35px;
+    font-size: 12px;
+    font-family: 'montserrat', Arial, Helvetica, Sans-serif;
+    margin: 370px 0px 0px 430px;
+  }
+  .section-one__link{
+    font-size: 12px;
+    padding: 384px 0px 0px 570px;
+  }
+  .section-one__vektor{
+    margin:  385px 0px 0px 717px;
+  }
+  .section-one__footer{
+    padding-top: 640px;
+  }
+  .f__ellipse{
+    padding-left: 240px;
+  }
+
+  .section-two{
+    margin-top: 463px;
+    height: 800px;
+  }
+  .section-two__bag-one{
+    height: 300px;
+    width: 285px;
+    padding: 246px 0px 0px 20px;
+  }
+  .section-two__bag-img-two{
+    margin: 150px 0px 0px 97px;
+  }
+  .section-two__product{
+    width: 315px;
+    height: 370px;
+    margin: 198px 0px 0px 440px;
+  }
+  .section-two__product_title{
+    font: bold 24px/26px 'montserrat', Arial, Helvetica, Sans-serif;
+  }
+  .section-two__product_subtitle{
+    font:bold 11px/12px 'montserrat', Arial, Helvetica, Sans-serif;
+  }
+  .section-two__product_text{
+    font: 11px/16px 'montserrat', Arial, Helvetica, Sans-serif;
+    padding: 0px 24px 0px;
+  }
+  .section-two__product_circle_grey {
+    margin-left: 24px;
+  }
+  .section-two__product-price{
+    font: bold 28px/30px 'montserrat', Arial, Helvetica, Sans-serif;
+  }
+  .section-two__product-button{
+    margin: 90px 0px 0px 58px;
+    height: 45px;
+    width: 200px;
+    font-size: 12px;
+  }
+  .section-two__link{
+    font-size: 12px;
+    margin: 576px 0px 0px 440px;
+  }
+  .section-two__vektor{
+    margin: 583px 0px 0px 637px;
+    width: 110px;
+  }
+
+  .section-three{
+    height: 800px;
+  }
+  .section-three::before{
+    height: 800px;
+  }
+  .section-three__look{
+    width: 650px;
+    height: 500px;
+    background-size: 65%;
+    margin: 24% 0px 0px 10%;
+  }
+  .section-three__look-text{
+    margin: 200px 0px 0px 472px;
+    width: 280px;
+    height: 285px;
+  }
+  .look-text__title{
+    font: bold 20px/22px 'montserrat', arial, helvetica, sans-serif;
+  }
+  .look-text__subtitle{
+    font: 11px 'montserrat', arial, helvetica, sans-serif;
+    margin: 14px 0px 0px 46px;
+  }
+  .look-text__text{
+    font: 12px/16px 'montserrat', arial, helvetica, sans-serif;
+    margin: 29px 30px 35px 47px;
+  }
+  .look-text__button{
+    width: 200px;
+    margin: 5px 0px 0px 45px;
+    font-size: 12px;
+  }
+  .section-three__link{
+    font: 12px/15px 'montserrat', arial, helvetica, sans-serif;
+    margin: 490px 0px 0px 510px;
+  }
+  .section-three__vektor{
+    margin: 494px 0px 0px 706px;
+    background-size: 70%;
+    width: 57px;
+    height: 14px;
+  }
+  .section-three__footer{
+    padding: 758px 16px 0px 0px;
   }
 }
 
@@ -658,7 +962,7 @@
   }
 
   .section-two{
-    height: 800px;
+    height: 845px;
     margin-top: 70px;
   }
   .section-two__bag-one{
@@ -667,7 +971,8 @@
   .section-two__bag-img-two{
     height: 100%;
     width: 100%;
-    background-position: top 120% left 45%;
+    background: no-repeat url('img/image11.png');
+    background-position: top 0% left 45%;
     background-size: 55%;
     padding: 0px;
     margin: 0px;
@@ -675,7 +980,7 @@
   .section-two__product{
     position: absolute;
     width: 70%;
-    height: 80%;
+    height: 37%;
     margin: 55% 0px 0px 15%;
   }
   .section-two__product_title{
@@ -721,7 +1026,7 @@
   .section-two__product-button{
     width: 260px;
     height: 37px;
-    margin: 85px 139px 0px 139px;
+    margin: 72px 139px 0px 139px;
     font:14px 'Montserrat', Arial, Helvetica, Sans-serif;
   }
   .section-two__link{
@@ -755,7 +1060,7 @@
     position: absolute;
     margin: 53% 0px 0px 25%;
     width: 56%;
-    height: 45%;
+    height: 22%;
     z-index: 1;
   }
   .look-text__title{
@@ -792,7 +1097,7 @@
 
 @media (max-width: 678px){
   .section-two__bag-img-two{
-    background-position: top 200% left 45%;
+    background-position: top 0% left 45%;
   }
   .section-two__product-price{
     margin-left:40%;
@@ -807,7 +1112,7 @@
 
 @media (max-width: 650px){
   .section-two__bag-img-two{
-    background-position: top 280% left 45%;
+    background-position: top 3% left 45%;
   }
   .section-two__product{
     margin: 60% 0px 0px 15%;
@@ -819,14 +1124,14 @@
     margin: 25% 0 0 35%;
   }
   .section-two__bag-img-two{
-    background-position: top 690% left 45%;
+    background-position: top 3% left 45%;
   }
   .section-two__product{
-    height: 85%;
+    height: 38%;
     margin: 62% 0px 0px 15%;
   }
   .section-two__product-price{
-    margin-left:30%;
+    margin-left:28%;
   }
   .section-three__vektor{
     margin: 102% 0px 0px 55%;
@@ -835,11 +1140,12 @@
 
 @media (max-width: 562px){
   .section-two__bag-img-two{
-    background-position: top 0% left 45%;
+    background-position: top 6% left 45%;
+    background-size: 70%;
   }
   .section-two__product{
-    height: 78%;
-    margin: 72% 0px 0px 15%;
+    height: 35%;
+    margin: 80% 0px 0px 15%;
   }
   .section-two__product_title{
     font: bold 30px/32px 'montserrat', Arial, Helvetica, Sans-serif;
