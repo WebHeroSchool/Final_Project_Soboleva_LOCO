@@ -36,6 +36,7 @@ body {
   line-height: 24px;
   color: #FFFFFF;
   z-index: 1;
+  transition: opacity .5s ease-out;
 }
 .header__language::after {
 	content: "";
@@ -47,6 +48,10 @@ body {
 	transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
   z-index: 1;
+}
+.header__language:hover {
+	opacity: 0.4;
+	cursor: pointer;
 }
 
 .burger-menu{
@@ -121,6 +126,11 @@ body {
   padding: 0px;
   border-radius: 1.5px;
   background-color: white;
+  transition: opacity .5s ease-out;
+}
+.section-one__button:hover {
+	opacity: 0.4;
+	cursor: pointer;
 }
 .section-one__link{
   position: absolute;
@@ -128,6 +138,11 @@ body {
   text-decoration: none;
   color: black;
   padding: 527px 0px 0px 1044px;
+  transition: opacity .5s ease-out;
+}
+.section-one__link:hover{
+	opacity: 0.4;
+	cursor: pointer;
 }
 .section-one__vektor{
   margin:  530px 11% 0px 0px;
@@ -157,6 +172,17 @@ body {
   height: 43px;
   z-index: 1;
   background: no-repeat url(img/FB.svg);
+}
+.section-one__footer-social-inst, .section-one__footer-social-vk, .section-one__footer-social-fb{
+   transition: opacity .5s ease-out;
+}
+.section-one__footer-social-inst:hover,
+.section-one__footer-social-vk:hover,
+.section-one__footer-social-fb:hover{
+  opacity: 0.4;
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
 }
 .f__ellipse{
 	height: 47px;
@@ -216,6 +242,13 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  transition: opacity .5s ease-out;
+}
+.section-two__circle-color:hover{
+  opacity: 0.4;
+  cursor: pointer;
+  width: 38px;
+  height: 38px;
 }
 .section-two__product_circle_grey {
   background: #DEDEDE;
@@ -244,6 +277,11 @@ body {
   margin: 141px 0px 0px 170px;
   font:14px 'Montserrat', Arial, Helvetica, Sans-serif;
   background-color: white;
+  transition: opacity .5s ease-out;
+}
+.section-two__product-button:hover {
+	opacity: 0.4;
+	cursor: pointer;
 }
 .section-two__link{
   position: absolute;
@@ -252,6 +290,11 @@ body {
   color: black;
   cursor: pointer;
   margin: 759px 0px 0px 884px;
+  transition: opacity .5s ease-out;
+}
+.section-two__link:hover {
+	opacity: 0.4;
+	cursor: pointer;
 }
 .section-two__vektor{
   position: absolute;
@@ -309,6 +352,11 @@ body {
   width: 253px;
   margin: 5px 0px 0px 158px;
   background-color: white;
+  transition: opacity .5s ease-out;
+}
+.look-text__button:hover {
+	opacity: 0.4;
+	cursor: pointer;
 }
 .section-three__link{
   position: absolute;
@@ -317,6 +365,11 @@ body {
   color: black;
   cursor: pointer;
   margin: 644px 0px 0px 949px;
+  transition: opacity .5s ease-out;
+}
+.section-three__link:hover{
+	opacity: 0.4;
+	cursor: pointer;
 }
 .section-three__vektor{
   position: absolute;
